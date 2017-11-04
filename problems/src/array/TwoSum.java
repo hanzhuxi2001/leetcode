@@ -18,6 +18,7 @@ import java.util.List;
  Solution: O(n log n). Wrap index and element in a class and sort in increasing order. Do a two pointer sum and compare.
  An alternative solution is to use hashing which is a O(n) solution - For each element e check if element (target - e)
  is already found in hashset, if yes return their index, else add this to hash-set and continue.
+
  */
 public class TwoSum {
 
